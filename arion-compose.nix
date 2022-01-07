@@ -1,7 +1,7 @@
 {
   services.agent = { ... }: {
     imports = [ ./service-agent.nix ];
-    # A directory containing secrets
+    # A directory containing secrets (non-standard option declared in service-agent.nix)
     # See also the secrets copying script in service-agent.nix
     params.hostSecretsDirectory = "/var/lib/keys/agent-in-arion-secrets";
     nixos.configuration = {...}: {
