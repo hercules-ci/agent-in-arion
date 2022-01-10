@@ -1,4 +1,4 @@
-# `agent-in-arion`
+# `agent-in-arion` (experimental)
 
 These files show how to run hercules-ci-agent in a slightly privileged podman container with [arion](https://docs.hercules-ci.com/arion/).
 
